@@ -1,0 +1,45 @@
+{
+  "publishConfig": {
+    "access": "public"
+  },
+  "name": "@extensionengine/vuex-resource",
+  "version": "9.0.0",
+  "description": "Extension Engine's vuex resource helper",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExtensionEngine/vuex-resource.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "release": "npx np"
+  },
+  "keywords": [
+    "Extension Engine",
+    "javascript",
+    "vue",
+    "vuex"
+  ],
+  "author": {
+    "name": "Extension Engine",
+    "email": "info@extensionengine.com",
+    "url": "https://extensionengine.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ExtensionEngine/vuex-resource/issues"
+  },
+  "homepage": "https://github.com/ExtensionEngine/vuex-resource#readme",
+  "devDependencies": {
+    "@extensionengine/eslint-config": "^1.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-semistandard": "^15.0.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.1.2"
+  }
+}
